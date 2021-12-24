@@ -1,13 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <div class="wrapper">
+        <header>
+            <input type="text" autocomplete="off" class="search" placeholder="Search...">
+        </header>
+        <main class="main">
+            <section class="location">
+                <div class="city">Tashkent</div>
+                <div class="date">24.12.21</div>
+            </section>
+            <div class="main-temp">
+                <div class="temp">21<span>°C</span></div>
+                <div class="weather">Fog</div>
+                <div class="hi-low">12°C / 13°C</div>
+            </div>
+        </main>
+    </div>
     <script src="script.js"></script>
 </body>
+
 </html>
